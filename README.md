@@ -108,7 +108,7 @@ test/
 
 | Descriptor matching (DM) | Optical flow (OF) |
 |---------------------------|--------------------|
-| ![DM trajectory](data/images/dm.png) | ![OF trajectory](data/images/of.png) |
+| ![DM trajectory](results_plots/dm.png) | ![OF trajectory](results_plots/of.png) |
 
 We can see here OF has significantly stereo matching and inliers number
 
@@ -117,7 +117,7 @@ We can see here OF has significantly stereo matching and inliers number
 
 | Descriptor matching (DM) | Optical flow (OF) |
 |---------------------------|--------------------|
-| ![DM map V1_03](data/images/dm_map_v1_03.png) | ![OF map V1_03](data/images/of_map_v1_03.png) |
+| ![DM map V1_03](results_plots/dm_map_v1_03.png) | ![OF map V1_03](results_plots/of_map_v1_03.png) |
 
 OF stays close to the ground truth trajectory, while DM has accumulative drifts making large error.
 
@@ -125,7 +125,7 @@ OF stays close to the ground truth trajectory, while DM has accumulative drifts 
 
 | Track length comparision
 |---------------------------|
-| ![Traj_com](bm_v1_01_easy/01/compare_lifespans.png) |
+| ![Traj_com](results_plots/compare_lifespans.png) |
 
 OF consistently exhibits higher track lengths, indicating landmarks are mantained over longer temporal spans.
 
